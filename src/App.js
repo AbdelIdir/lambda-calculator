@@ -4,7 +4,7 @@ import "./App.css";
 import Logo from "./components/DisplayComponents/Logo";
 import { NumberButton } from "./components/ButtonComponents/NumberButtons/NumberButton";
 import { OperatorButton } from "./components/ButtonComponents/OperatorButtons/OperatorButton";
-
+import { Display } from "./components/DisplayComponents/Display";
 console.log (NumberButton);
 
 // STEP 4 - import the button and display components
@@ -26,8 +26,11 @@ function App() {
     <div className="container">
       <Logo />
       <div className="App">
+        <Display />
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
+      
+      
     </div>
   );
 }
