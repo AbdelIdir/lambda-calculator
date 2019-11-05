@@ -5,8 +5,8 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
-}
-.display {
+  }
+  .display {
     margin-top: 25px;
     height: 100px;
     width: 450px;
@@ -18,5 +18,36 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 8%;
-    font-size: 5.0rem;
+    font-size: 5rem;
   }
+  
+  .buttons {
+    border-radius: 45px;
+    background: #322c2d;
+    width: 40px;
+    height: 40px;
+    padding: 40px;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  .specials {
+    border-radius: 45px;
+    background: blue;
+    width: 40px;
+    height: 40px;
+    padding: 40px;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  .operators {
+    border-radius: 45px;
+    background: green;
+    width: 40px;
+    height: 40px;
+    padding: 40px;
+    font-size: 30px;
+    margin: 11px;
+  }
+  
